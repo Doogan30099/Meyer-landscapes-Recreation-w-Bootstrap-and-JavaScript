@@ -1,0 +1,11 @@
+.gallery-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery-img img:hover {
+    transform: scale(1.10);
+    transition: transform 0.3s ease;
+    
+}
