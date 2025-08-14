@@ -9,3 +9,17 @@
     transition: transform 0.3s ease;
     
 }
+
+.navbar {
+  z-index: 1050; /* higher than Bootstrap modals */
+}
+
+#job-opportunities-img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.root {
+    font-family:fantasy;
+}
