@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Meyer-Landscapes-styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <>
+              <nav
+        class="navbar navbar-expand-lg navbar-light bg-success fixed-top w-100"
+      >
+        <div class="container-fluid">
+          <!--here is where your gunna put the logo-->
+          <img src="/images/Meyerlogo.jpg" alt="" />
+
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle-navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse p2 navbar-success text-center"
+            id="navbarContent"
+          >
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 text-lg-center text-wrap text-uppercase"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  href="Meyer-Landscapes-Homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  href="Meyer-Landscapes-About.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  href="Meyer-Landscapes-Gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  href="Meyer-Landscapes-Services.html"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  href="Meyer-Landscapes-Opportunities.html"
+                  >Career Opportunities</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  href="Meyer-Landscapes-Contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="position-relative">
+    <img src="images/gallery/photo15.jpg"
+         alt="image cannot be displayed"
+         class="img-fluid w-100"
+         id="job-opportunities-img">
+
+    <h1 class="position-absolute top-50 start-50 pt-5 mt-5 translate-middle text-white fw-bold">
+      Contact Us
+    </h1>
+  </div>
+    <main>
+      <div class="container mt-5 pt-5 border border-success">
+      <h1 class="text-success text-center">Request An Estimate</h1>
+      <p class="text-center">Please fill out the form below to request an estimate for our landscaping services.</p>
+      <form action="submit_form.php" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+    </main>
+</body>
+</html>
+
