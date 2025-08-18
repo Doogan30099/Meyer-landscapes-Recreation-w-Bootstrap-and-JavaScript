@@ -24,3 +24,18 @@
     font-family:fantasy;
     font-size: 18px;
 }
+
+
+.box {
+      width: 300px;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .total {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
