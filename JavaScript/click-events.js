@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Example: Maintenance packages button
+  // Maintenance packages button
   const maintenanceBtn = document.getElementById("maintenance-packages-btn");
   if (maintenanceBtn) {
     maintenanceBtn.addEventListener("click", function () {
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Example: Materials price list button
+  // Materials price list button
   const materialsBtn = document.getElementById("materials-price-btn");
   if (materialsBtn) {
     materialsBtn.addEventListener("click", function () {
@@ -15,11 +15,32 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Example: Request an estimate button
-  const estimateBtn = document.getElementById("estimate-btn");
-  if (estimateBtn) {
-    estimateBtn.addEventListener("click", function () {
+  // Request an estimate buttons (all of them)
+  document.querySelectorAll('button.btn-success.fw-bold.text-uppercase').forEach(btn => {
+    if (btn.textContent.trim() === "Request an estimate") {
+      btn.addEventListener("click", function () {
+        window.location.href = "Meyer-Landscapes-Contact.html";
+      });
+    }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const contactBtn = document.getElementById("contact-btn");
+  if (contactBtn) {
+    contactBtn.addEventListener("click", function () {
       window.location.href = "Meyer-Landscapes-Contact.html";
+    });
+  }
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const exploreBtn = document.getElementById("explore-btn");
+  if (exploreBtn) {
+    exploreBtn.addEventListener("click", function () {
+      window.location.href = "Meyer-Landscapes-Services.html";
     });
   }
 });
