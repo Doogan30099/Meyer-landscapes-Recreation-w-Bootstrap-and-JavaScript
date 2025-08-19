@@ -298,52 +298,53 @@
       </div>
       <!--this is where the price calculator will go -->
       <div class="container mt-5 pt-5 mb-5 pb-5 border border-success">
-        <h2 class="text-center text-success">Materials Price Calculator</h2>
+  <h2 class="text-center text-success">Materials Price Calculator</h2>
 
-        <label for="materials">Select a material:</label>
-        <select id="materials">
-          <option value="0">--Choose--</option>
-          <option value="">--Soils and Shells</option>
-          <option value="23.00">3/8" Loam $23.00</option>
-          <option value="32.00">Compost $32.00</option>
-          <option value="43.00">Turfgro Top Dressing $43.00</option>
-          <option value="60.00">Divotgro - 2MM Sand/Compost Mix $60.00</option>
-          <option value="70.00">Plantgro Planting Mix $70.00</option>
-          <option value="80.00">Quahog Shells $80.00</option>
-          <option value="">--Mulch and Wood Chips</option>
-          <option value="34.50">Nature's Best $34.50</option>
-          <option value="40.50">Premium Pine $40.50</option>
-          <option value="40.50">Premium Black $40.50</option>
-          <option value="45.50">New Hampshire Pine $45.50</option>
-          <option value="46.50">Jolly Brown Cow $46.50</option>
-          <option value="52.00">Hemlock $52.00</option>
-          <option value="54.50">Aged Hemlock $54.50</option>
-          <option value="16.00">Common Wood Chips $16.00</option>
-          <option value="30.00">White Wood Chips $30.00</option>
-          <option value="">--SAND AND STONE--</option>
-          <option value="11.00">Used Fill (Not Screened) $11.00</option>
-          <option value="16.00">Screened Fill $16.00</option>
-          <option value="55.00">Game Changer 2mm Sand $ 55.00</option>
-          <option value="43.00">Mason Sand $ 43.00</option>
-          <option value="43.00">Boulders $ 43.00</option>
-          <option value="44.25">1 1/2" Stone $ 44.25</option>
-          <option value="48.25">1 1/2" Double Washed $ 48.25</option>
-          <option value="47.00">3/4" Blue Stone $ 47.00</option>
-          <option value="">--Firewood--</option>
-          <option value="100.00">Seasoned $100</option>
-          <option value="75.00">Semi-Seasoned $75</option>
-          <option value="300.00">Green $300 - Cord</option>
-          <option value="75.00">
-            Chunk Hardwood - Fire Pits & Sm Stoves $75 / $250
-          </option>
-        </select>
-        <button onclick="addMaterial()">Add</button>
+  <label for="materials">Select a material:</label>
+  <select id="materials">
+    <option value="0">--Choose--</option>
+    <option value="">--Soils and Shells--</option>
+    <option value="23.00">3/8" Loam $23.00</option>
+    <option value="32.00">Compost $32.00</option>
+    <option value="43.00">Turfgro Top Dressing $43.00</option>
+    <option value="60.00">Divotgro - 2MM Sand/Compost Mix $60.00</option>
+    <option value="70.00">Plantgro Planting Mix $70.00</option>
+    <option value="80.00">Quahog Shells $80.00</option>
+    <option value="">--Mulch and Wood Chips--</option>
+    <option value="34.50">Nature's Best $34.50</option>
+    <option value="40.50">Premium Pine $40.50</option>
+    <option value="40.50">Premium Black $40.50</option>
+    <option value="40.50">New Hampshire Pine $40.50</option>
+    <option value="46.50">Jolly Brown Cow $46.50</option>
+    <option value="52.00">Hemlock $52.00</option>
+    <option value="54.00">Aged Hemlock $54.00</option>
+    <option value="16.00">Common Wood Chips $16.00</option>
+    <option value="30.00">White Wood Chips $30.00</option>
+    <option value="">--Sand and Stone--</option>
+    <option value="11.00">Used Fill (Not Screened) $11.00</option>
+    <option value="16.00">Screened Fill $16.00</option>
+    <option value="55.00">Game Changer 2mm Sand $55.00</option>
+    <option value="48.25">Mason Sand $48.25</option>
+    <option value="48.25">1/2" Double Washed Stone $48.25</option>
+    <option value="48.25">1" Double Washed Stone $48.25</option>
+    <option value="48.25">1 1/2" Double Washed Stone $48.25</option>
+    <option value="48.25">3/4" Stone $48.25</option>
+    <option value="48.25">3/8" Stone $48.25</option>
+    <option value="48.25">3/4" Recycled Concrete $48.25</option>
+    <option value="48.25">3/4" Recycled Asphalt $48.25</option>
+    <option value="">--Firewood--</option>
+    <option value="100.00">Seasoned $100.00</option>
+    <option value="75.00">Semi-Seasoned $75.00</option>
+    <option value="300.00">Green $300.00</option>
+    <option value="75.00">Chunk Hardwood $75.00</option>
+  </select>
+  <button onclick="addMaterial()">Add</button>
 
-        <div class="box">
-          <div class="total">Total: $<span id="totalPrice">0</span></div>
-        </div>
-        <ul id="selectedList"></ul>
-      </div>
+  <div class="box mt-3">
+    <div class="total">Total: $<span id="totalPrice">0</span></div>
+  </div>
+  <ul id="selectedList"></ul>
+</div>
     </main>
 
     <footer class="bg-success text-light text-center py-4 mt-auto">
@@ -387,7 +388,7 @@
         </p>
         <p class="mb-0">&copy; 2025 Meyer Landscapes. All Rights Reserved.</p>
       </div>
-      <script src="/JavaScript/script.js"></script>
     </footer>
+    <script src="/JavaScript/pricing-calculator-script.js"></script>
   </body>
 </html>

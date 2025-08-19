@@ -1,13 +1,12 @@
 .gallery-img img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .gallery-img img:hover {
-    transform: scale(1.10);
-    transition: transform 0.3s ease;
-    
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 .navbar {
@@ -21,21 +20,28 @@
 }
 
 :root {
-    font-family:fantasy;
-    font-size: 18px;
+  font-family: fantasy;
+  font-size: 18px;
 }
 
-
 .box {
-      width: 300px;
-      padding: 10px;
-      margin-top: 10px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-    .total {
-      font-weight: bold;
-      margin-top: 10px;
-      font-size: 18px;
-    }
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.total {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+}
 
+.box,
+.total,
+#totalPrice {
+  display: block;
+  color: #198754; /* Bootstrap success green */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
