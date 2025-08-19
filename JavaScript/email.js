@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Thank you! We received your request. A copy was sent to your email."
         );
         form.reset();
-        window.location.reload(); // Redirect back to Contact page
+        window.location.reload(); 
       })
       .catch((err) => {
         console.error("Error sending confirmation:", err);

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Maintenance packages button
+
   const maintenanceBtn = document.getElementById("maintenance-packages-btn");
   if (maintenanceBtn) {
     maintenanceBtn.addEventListener("click", function () {
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Materials price list button
+
   const materialsBtn = document.getElementById("materials-price-btn");
   if (materialsBtn) {
     materialsBtn.addEventListener("click", function () {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Request an estimate buttons (all of them)
+
   document.querySelectorAll('button.btn-success.fw-bold.text-uppercase').forEach(btn => {
     if (btn.textContent.trim() === "Request an estimate") {
       btn.addEventListener("click", function () {
